@@ -1,7 +1,7 @@
 header h1 {
 	float: left; 
 	color: #16abbf; 
-	font-family: 'RalewayRegular'; 
+	font-family: 'RalewayExtraLight'; 
 	font-size: 50px;
 	margin-bottom: 5px;
 }
@@ -32,8 +32,20 @@ li {
 
 }
 
+@font-face {
+    font-family: 'RalewayExtraLight';
+    src: url('Raleway/Raleway-ExtraLight-webfont.eot');
+    src: url('Raleway/Raleway-ExtraLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Raleyway/Raleway-ExtraLight-webfont.woff') format('woff'),
+         url('Raleway/Raleway-ExtraLight-webfont.ttf') format('truetype'),
+         url('Raleway/Raleway-ExtraLight-webfont.svg#RalewayExtraLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .text-box {
-	font-family: Raleway;
+	font-family: 'RalewayExtraLight';
 	font-size: 30pt;
 	border: 1px solid black;
 	border-color: #000;
